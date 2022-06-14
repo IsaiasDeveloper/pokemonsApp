@@ -1,0 +1,64 @@
+ion-toolbar {
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+}
+
+.textos {
+    width: 93%;
+    margin: auto;
+}
+
+h1 {
+    position: relative;
+    width: 231px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 35px;
+    color: #282828;
+    margin: auto;
+}
+
+.retangulo {
+    position: absolute;
+    width: 143px;
+    height: 13px;
+    left: 69px;
+    top: 52px;
+    background: #ffda55;
+    z-index: -1;
+}
+
+p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.9px;
+    color: #282828;
+}
+
+.btn {
+    width: 90%;
+    height: 55px;
+    background: #48d0b0;
+    box-shadow: 0px 2px 0px rgb(0 0 0 / 18%);
+    border-radius: 11px;
+    margin: auto;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
